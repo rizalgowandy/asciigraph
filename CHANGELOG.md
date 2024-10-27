@@ -2,6 +2,46 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.7.3] - 2024-10-26
+
+### Fixed
+
+- Incorrect plot height calculation for small value ranges (#59)
+
+## [0.7.2] - 2024-08-12
+
+### Fixed
+
+- Unintended modification of input data (#55)
+
+## [0.7.1] - 2024-03-30
+
+### Added
+
+- CLI: Option to specify legends for series (`sl`)
+
+## [0.7.0] - 2024-03-30
+
+### Added
+
+- CLI: Options to specify delimiter (`d`) and number of series (`sn`)
+
+### Changed
+
+- CLI: Option (`sc`) to specify series colors
+
+## [0.6.0] - 2024-03-25
+
+### Added
+
+- Option to add legends for colored graphs
+
+## [0.5.6] - 2023-06-24
+
+### Added
+
+- Options to set upper & lower bound of graph
+
 ## [0.5.5] - 2022-05-03
 
 ### Added
@@ -59,6 +99,11 @@ All notable changes to this project will be documented in this file.
 - Prevent panics when data is flat. (#8)
 - Prevent BADPREC issue when maximum and minimum values in a series are 0. (#10)
 
+[0.7.2]: https://github.com/guptarohit/asciigraph/releases/tag/v0.7.2
+[0.7.1]: https://github.com/guptarohit/asciigraph/releases/tag/v0.7.1
+[0.7.0]: https://github.com/guptarohit/asciigraph/releases/tag/v0.7.0
+[0.6.0]: https://github.com/guptarohit/asciigraph/releases/tag/v0.6.0
+[0.5.6]: https://github.com/guptarohit/asciigraph/releases/tag/v0.5.6
 [0.5.5]: https://github.com/guptarohit/asciigraph/releases/tag/v0.5.5
 [0.5.4]: https://github.com/guptarohit/asciigraph/releases/tag/v0.5.4
 [0.5.3]: https://github.com/guptarohit/asciigraph/releases/tag/v0.5.3
